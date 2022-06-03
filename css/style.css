@@ -1,1 +1,122 @@
+/* .footer-img{
+    background-image: url("../images/Group\ 66.png");
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+   } */
+.footer{
+    background-color: #05395E; 
+}
+.footer img{
+    width: 75%;
+    display: block;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.icons{
+text-align: center;
+padding-top: 40px;
+}
+.icons i{
+    margin-right: 30px;
+    font-size: 30px;
+    color: #fff;
+    padding: 8px;
+}
+.icons .fa-twitter{
+    background-color: #2AA9E0;
+    color: #fff;
+    border-radius: 100%;
+    
+}
+.icons .fa-facebook-f{
+    background-color: #385899;
+    color: #fff;
+    border-radius: 100%;
+    padding-left: 15px;
+    padding-right:15px;
+}
+.icons .fa-linkedin{
+    background-color:#007FBC;
+    border-radius: 100%;
+    color: #fff;
+}
+.icons .fa-instagram{
+    background:linear-gradient(to bottom right, #515BD4, #8134AF, #DD2A7B, #FEDA77, #F58529); 
+    border-radius: 100%;
+}
+.links{
+    text-align: center;
+    padding-top: 60px;
+}
+.links a{
+    color: #B4C4CF;
+    padding-right: 22px;
+    font-size: 17px;
+}
+.line{
+    border-top: 1px solid #787878 ;
+    width: 100%;
+}
+.connect img, .connect1 img , .connect2 img{
+    display: block;
+    margin: auto;
+    width: 10%;
+}
 
+.text1{
+    padding-top: 10px;
+}
+.text2{
+    padding-top: 13px;
+}
+.text1 , .text2 , .text3{
+    text-align: center;
+}
+.text1 h3 , .text2 h3 , .text3 h3{
+    color: #fff;
+}
+.text1 p , .text2 p , .text3 p{
+    color: #B4C4CF;
+}
+.footer-text{
+    text-align: center;
+    color: #6c757d;
+    padding: 15px;
+}
+.footer-text span{
+    color: red;
+}
+@media(max-width:1200px){
+    .links a{
+        font-size: 13px;
+        padding-right: 15px;
+    }
+    .icons{
+        margin-right: 2px;
+        font-size: 5px;
+    }
+
+}
+@media(max-width:768px){
+.footer img{
+    width: 50%;
+}
+.icons{
+    font-size: 10px;
+    display: block;
+    margin: auto;
+}
+}
+@media(max-width:768px){
+    .footer img{
+        width:80%;
+    }
+    .connect img, .connect1 img , .connect2 img{
+        width: 10%;
+    }
+    .links{
+        padding-top: 20px;
+    }
+}
